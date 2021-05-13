@@ -48,6 +48,10 @@ width: 24.5%;
     cursor: pointer
 }
 
+.skillCard {
+    cursor: pointer;
+}
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -55,10 +59,10 @@ width: 24.5%;
 .card a :hover {
     opacity: 80%;
 }
-.skillCard .card {
+/* .skillCard .card {
     background-color: rgb(240, 237, 231)
 
-}
+} */
 
 .schoolCard {
     background-color: white;
@@ -76,9 +80,9 @@ width: 24.5%;
 }
 
 @media screen and (max-width: 768px) {
-    .skillCard .card {
+    /* .skillCard .card {
         background-color: rgb(240, 237, 231);
-    }
+    } */
 
     .profile {
         width: 40%;
@@ -110,3 +114,10 @@ footer {
     clear: both;
     text-align: center;
   }
+.skillEL a {
+    cursor: not-allowed;
+}
+
+.expIMG {
+    opacity: 30%;
+}
