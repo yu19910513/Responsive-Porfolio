@@ -34,7 +34,7 @@ margin-top: 5%;
 display: flex;
 justify-content: center;
 }
-img {
+.profile {
 border-radius: 50%;
 width: 15%;
 height: auto;
@@ -67,7 +67,7 @@ width: 24.5%;
 }
 
 @media screen and (max-width: 576px) {
-    img {
+    .profile {
         border-radius: 50%;
         width: 40%;
     }
