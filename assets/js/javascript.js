@@ -32,7 +32,7 @@ $(".educationEL").hover(
   $(".cards .card").hover(
 
     function(){
-        $(this).css('transform','scale(1.1)')
+        $(this).css('transform','scale(1.05)')
 
     },
 
