@@ -37,7 +37,7 @@ justify-content: center;
 .profile {
 border-radius: 50%;
 width: 15%;
-height: auto;
+height: 15%;
 }
 .card {
 margin-top: 10px;
@@ -70,6 +70,7 @@ width: 24.5%;
     .profile {
         border-radius: 50%;
         width: 40%;
+        height: 40%;
     }
     .cards{
     display: block;
