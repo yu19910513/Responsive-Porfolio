@@ -54,7 +54,6 @@ width: 24.5%;
 }
 .card a :hover {
     opacity: 80%;
-    width: 110%;
 }
 .skillCard .card {
     background-color: rgb(240, 237, 231)
@@ -65,17 +64,22 @@ width: 24.5%;
     background-color: white;
     width: 40%;
 }
+@media screen and (max-width: 992px){
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .skillCard .card {
         background-color: rgb(240, 237, 231);
     }
-    .cards{
-        display: flex;
-        flex-wrap: wrap;
-        }
-    .card{
-        width: 50%;
-    }
+
     .profile {
         width: 40%;
         height: 40%;
@@ -94,14 +98,15 @@ width: 24.5%;
     width: 100%;
     }
 
+}
 .icons {
     justify-content: end;
 }
+
 footer {
     font-size: 50%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:cursive;
     padding: 30px;
     clear: both;
     text-align: center;
   }
-}
