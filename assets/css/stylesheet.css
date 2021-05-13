@@ -1,3 +1,30 @@
+.fa {
+
+    font-size: 30px;
+    width: 30px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 1%;
+    border-radius: 10%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
 .profileNav {
     width: 5%;
     border-radius: 50%;
@@ -12,13 +39,30 @@ border-radius: 50%;
 width: 15%;
 }
 .card {
-margin-top: 10%;
+margin-top: 10px;
 width: 24.5%;
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
+}
+.card a :hover {
+    opacity: 80%;
+    width: 110%;
+}
+.skillCard .card {
+    background-color: rgb(240, 237, 231)
+
+}
+@media screen and (max-width: 768px) {
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        }
+    .card{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -33,3 +77,13 @@ width: 24.5%;
     width: 100%;
     }
 }
+.icons {
+    justify-content: end;
+}
+footer {
+    font-size: 50%;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    clear: both;
+    text-align: center;
+  }
