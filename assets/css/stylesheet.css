@@ -44,6 +44,10 @@ margin-top: 10px;
 width: 24.5%;
 }
 
+.educationCard{
+    cursor: pointer
+}
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -56,7 +60,15 @@ width: 24.5%;
     background-color: rgb(240, 237, 231)
 
 }
+
+.schoolCard {
+    background-color: white;
+    width: 40%;
+}
 @media screen and (max-width: 768px) {
+    .skillCard .card {
+        background-color: rgb(240, 237, 231);
+    }
     .cards{
         display: flex;
         flex-wrap: wrap;
