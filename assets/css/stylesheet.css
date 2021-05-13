@@ -34,11 +34,11 @@ margin-top: 5%;
 display: flex;
 justify-content: center;
 }
-.profile {
+/* .profile {
 border-radius: 50%;
 width: 15%;
 height: auto;
-}
+} */
 .card {
 margin-top: 10px;
 width: 24.5%;
@@ -67,10 +67,10 @@ width: 24.5%;
 }
 
 @media screen and (max-width: 576px) {
-    .profile {
+    /* .profile {
         border-radius: 50%;
         width: 40%;
-    }
+    } */
     .cards{
     display: block;
     }
