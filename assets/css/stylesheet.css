@@ -64,11 +64,14 @@ width: 24.5%;
     .card{
         width: 50%;
     }
+    .profile {
+        width: 40%;
+        height: 40%;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .profile {
-        border-radius: 50%;
         width: 40%;
         height: 40%;
     }
@@ -78,7 +81,7 @@ width: 24.5%;
     .card{
     width: 100%;
     }
-}
+
 .icons {
     justify-content: end;
 }
@@ -89,3 +92,4 @@ footer {
     clear: both;
     text-align: center;
   }
+}
