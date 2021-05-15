@@ -63,6 +63,14 @@ width: 24.5%;
 .profile:hover {
   content: url(../images/IMG_6601.jpg)
 }
+/* .hover-img, .headerPhoto:hover .profile {
+    display: none;
+  }
+
+  .headerPhoto:hover .hover-img {
+    display: inline;
+  } */
+
 
 .schoolCard {
     background-color: white;
