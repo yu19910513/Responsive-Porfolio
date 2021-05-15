@@ -80,16 +80,13 @@ setInterval(time, 1000);
 $(".educationOption").hover(
 
     function(){
-        $(this).removeClass('bg-light');
-        $(this).addClass('bg-secondary');
-        $(this).css('color', 'white')
-
+        $(this).removeClass('bg-light text-dark');
+        $(this).addClass('bg-secondary text-white');
     },
 
     function(){
-        $(this).removeClass('bg-secondary');
-        $(this).css('color', '')
-        $(this).addClass('bg-light');
+        $(this).removeClass('bg-secondary text-white');
+        $(this).addClass('bg-light text-dark');
   }
 );
 
