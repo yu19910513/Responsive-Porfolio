@@ -82,6 +82,11 @@ width: 24.5%;
     .card{
         width: 50%;
     }
+
+    .profile, .hover-img{
+        width: 30%;
+        height: 30%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -90,16 +95,16 @@ width: 24.5%;
     } */
 
     .profile, .hover-img{
-        width: 40%;
-        height: 40%;
+        width: 30%;
+        height: 30%;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .profile, .hover-img {
+    /* .profile, .hover-img {
         width: 40%;
         height: 40%;
-    }
+    } */
     .cards{
     display: block;
     }
