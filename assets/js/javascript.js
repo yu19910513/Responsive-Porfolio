@@ -76,3 +76,45 @@ function time(){
     $('.timer').text(moment().format('MMMM Do YYYY, h:mm:ss a'))
 }
 setInterval(time, 1000);
+
+$(".educationOption").hover(
+
+    function(){
+        $(this).removeClass('bg-light');
+        $(this).addClass('bg-secondary');
+        $(this).css('color', 'white')
+
+    },
+
+    function(){
+        $(this).removeClass('bg-secondary');
+        $(this).css('color', '')
+        $(this).addClass('bg-light');
+  }
+);
+
+$(".skillOption").hover(
+
+    function(){
+        $(this).removeClass('text-dark');
+        $(this).addClass('active text-white');
+    },
+
+    function(){
+        $(this).removeClass('active');
+        $(this).addClass('text-dark');
+  }
+);
+
+$(".expOption").hover(
+
+    function(){
+        $(this).removeClass('bg-light text-dark');
+        $(this).addClass('bg-success text-white');
+    },
+
+    function(){
+        $(this).removeClass('bg-success text-white');
+        $(this).addClass('bg-light text-dark');
+  }
+);
