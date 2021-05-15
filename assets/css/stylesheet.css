@@ -34,7 +34,7 @@ margin-top: 5%;
 display: flex;
 justify-content: center;
 }
-.profile {
+.profile, .hover-img {
 border-radius: 50%;
 width: 15%;
 height: 15%;
@@ -59,10 +59,15 @@ width: 24.5%;
 .card a :hover {
     opacity: 80%;
 }
-/* .skillCard .card {
-    background-color: rgb(240, 237, 231)
 
-} */
+.hover-img, .headerPhoto:hover .profile {
+    display: none;
+  }
+
+  .headerPhoto:hover .hover-img {
+    display: inline;
+  }
+
 
 .schoolCard {
     background-color: white;
@@ -84,14 +89,14 @@ width: 24.5%;
         background-color: rgb(240, 237, 231);
     } */
 
-    .profile {
+    .profile, .hover-img{
         width: 40%;
         height: 40%;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .profile {
+    .profile, .hover-img {
         width: 40%;
         height: 40%;
     }
