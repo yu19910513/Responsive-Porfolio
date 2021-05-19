@@ -1,5 +1,4 @@
-# Updated Porfolio
-## <Homework 08>
+# Responsive Porfolio
 - - - -
 ## Purpose
 
