@@ -4,11 +4,6 @@
 ## Purpose
 
 The updated porfolio is summarize the experiences and skills a develpoer had grown.
-
-## User Story
-
-
-### Mockup
  
 ## Languages
 
